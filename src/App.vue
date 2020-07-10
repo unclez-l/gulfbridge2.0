@@ -1,28 +1,79 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app id="app"> 
+    <div class="landing-page hidden-xs-only"> 
+      <div>
+        <v-app-bar color="transparent" app>
+          <img src="./assets/gb-logo.svg"   style="width: 70px" alt="" srcset="" class="ml-5">
+          <v-toolbar-title class="ml-4 mt-3" style="letter-spacing: 2px; font-weight: bold; font-size: 15px; color: #33a0ba">Gulfbridge Consulting</v-toolbar-title>
+            <v-spacer></v-spacer>
+            <div class="btn my-3 mt-5">
+              <v-btn text small class="text-lowercase" ripple="" ><a href="#" style="text-decoration: none; color:#33a0ba">home</a></v-btn>
+              <v-btn text small class="text-lowercase" ripple="" ><a href="#" style="text-decoration: none; color:#33a0ba">about us</a></v-btn>
+              <v-btn text small class="text-lowercase" ripple="" ><a href="#" style="text-decoration: none; color:#33a0ba">our service</a></v-btn>
+              <v-btn text small class="text-lowercase" ripple="" ><a href="#" style="text-decoration: none; color:#33a0ba">contact</a></v-btn>
+            </div>
+        </v-app-bar>
+
+        <div style="color: #33a0ba;">
+          <p style="margin:250px 0px 0px 35px; font-size: 20px;font-weight: bold; letter-spacing:2px;">WE ARE THE BEST AT</p>
+          <p  style="margin: 20px 0px 0px 35px; font-size: 15px; line-height: 25px; font-weight:bold; letter-spacing: 1px; ">HR Advisory, Training, Recruitment and providing <br>
+            Professional HR Management & Advisory Services to suit <br>
+            your unique operations.</p>
+
+          <span>
+            <i class="iconz fab fa-twitter"></i>
+            <i class="iconz fab fa-facebook-f"></i>
+            <i class="iconz fab fa-instagram"></i>
+            <i class="iconz fab fa-linkedin-in"></i>
+            <i class="iconz fab fa-medium-m"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+    <v-content style="padding: 0px;"> <!-- removes padding on mobile screen view as a result of fixed menu/nav bar -->
+      <Home/>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home'
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
-  }
-}
+    Home,
+  
+  },
+
+  data: () => ({
+    //
+  }),
+};
 </script>
 
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+ #app {
+  font-family: 'Montserrat', sans-serif;
 }
+
+.landing-page {
+  background-image: url("./assets/HomeBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.iconz {
+  margin: 80px 0px 0px 30px;
+}
+
+
 </style>

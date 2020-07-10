@@ -47,7 +47,7 @@
       <v-container>
         <v-row wrap style="margin: 0px 0px" >
           <v-col cols="12" md="7">
-            <v-card class="pa-5" flat color="#33a0ba">
+            <v-card class="pa-5" flat>
               <h3 class="my-5">OUR SERVICE</h3>
               <ul>
                 <li>HR Advisory</li>
@@ -63,13 +63,13 @@
           </v-col>
 
           <v-col cols="12" md="5" >
-            <img src="../assets/Img2.svg" alt="" srcset=""  >
+            <img src="../assets/Img22.svg" alt="" srcset=""  >
           </v-col>
 
        
 
           <v-col cols="12" md="12">
-            <v-card class="pa-5" flat color="#33a0ba">
+            <v-card class="pa-5" flat >
               <h3 class="my-5">HOW WE SERVE YOU</h3>
               <div>
                 <p> We start our engagement with you, our valued client, with a thorough understanding of your business (strategy, operating model, etc.) and its need(s). We naturally prefer to start with a brief from you to us but where that is not possible for whatever reasons, we will come in to gather information ourselves by carrying out surveys and other information gathering tools. With this knowledge, we formulate your recruitment, training and other needs, seek your approval to our proposed interventions, and we work from there by giving you a project plan.</p>
@@ -152,7 +152,7 @@
       text-align: start;
       line-height: 35px;
      // font-weight: bold;
-      color: white;
+      color: #1b3164;
     }
   }
   .about div p{
@@ -163,13 +163,13 @@
   }
 
   .service {
-    background-color: #33a0ba;
+    //background-color: #33a0ba;
     div p {
-      color: white;
+      color: #1b3164;
     }
     div h3 {
       color: #1b3164;
-      border-bottom: none;
+      //border-bottom: none;
     }
   }
   .footer {

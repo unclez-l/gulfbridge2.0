@@ -2,19 +2,19 @@
   <v-app id="app"> 
     <div class="landing-page hidden-xs-only"> 
       <div>
-        <v-app-bar color="transparent" app>
+        <v-app-bar color="transparent" app collapse-on-scroll="" >
           <img src="./assets/gb-logo.svg"   style="width: 70px" alt="" srcset="" class="ml-5">
           <v-toolbar-title class="ml-4 mt-3" style="letter-spacing: 2px; font-weight: bold; font-size: 15px; color: #33a0ba">Gulfbridge Consulting</v-toolbar-title>
             <v-spacer></v-spacer>
             <div class="btn my-3 mt-5">
-              <v-btn text small class="text-lowercase" ripple="" ><a href="#" style="text-decoration: none; color:#33a0ba">home</a></v-btn>
-              <v-btn text small class="text-lowercase" ripple="" ><a href="#" style="text-decoration: none; color:#33a0ba">about us</a></v-btn>
-              <v-btn text small class="text-lowercase" ripple="" ><a href="#" style="text-decoration: none; color:#33a0ba">our service</a></v-btn>
-              <v-btn text small class="text-lowercase" ripple="" ><a href="#" style="text-decoration: none; color:#33a0ba">contact</a></v-btn>
+              <v-btn text small class="text-lowercase"><a href="#" style="text-decoration: none; color:#33a0ba">home</a></v-btn>
+              <v-btn text small class="text-lowercase"><a href="#" style="text-decoration: none; color:#33a0ba">about us</a></v-btn>
+              <v-btn text small class="text-lowercase"><a href="#" style="text-decoration: none; color:#33a0ba">our service</a></v-btn>
+              <v-btn text small class="text-lowercase"><a href="#" style="text-decoration: none; color:#33a0ba">contact</a></v-btn>
             </div>
         </v-app-bar>
 
-        <div style="color: #33a0ba;">
+        <div style="color: #1b3164;">
           <p style="margin:250px 0px 0px 35px; font-size: 20px;font-weight: bold; letter-spacing:2px;">WE ARE THE BEST AT</p>
           <p  style="margin: 20px 0px 0px 35px; font-size: 15px; line-height: 25px; font-weight:bold; letter-spacing: 1px; ">HR Advisory, Training, Recruitment and providing <br>
             Professional HR Management & Advisory Services to suit <br>

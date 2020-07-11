@@ -5,12 +5,11 @@
       <!-- landing page for mobile screen -->
 
 
-
-    
+     
 
 <!-- ********************************* Body  for app *******************************************************     -->
 
-    <div class="about">
+    <div class="about" id="about">
       <v-container >
         <v-row wrap>
           <v-col cols="12" md="7">
@@ -43,7 +42,7 @@
       </v-container>
     </div>
   
-    <div class="service">
+    <div class="service" id="service">
       <v-container>
         <v-row wrap style="margin: 0px 0px" >
           <v-col cols="12" md="7">
@@ -82,7 +81,7 @@
      
     </div>
 
-    <div class="footer">
+    <div class="footer" id="contact">
       <v-container>
         <v-row class="">
           <v-col cols="12" >
@@ -120,7 +119,7 @@
   }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   .home {
     background-image: url("../assets/GBM2.png");
     background-position: center;
@@ -188,6 +187,4 @@
       padding: 0px 10px;
     }
   }
-
-
 </style>

@@ -83,7 +83,7 @@
 
     <div class="footer" id="contact">
       <v-container>
-        <v-row class="">
+        <v-row class="" style="margin-left:12px;">
           <v-col cols="12" >
             <p style="letter-spacing: 1px">+234 807 777 6770 <br>
              +234 812 695 2210 <br>
@@ -173,9 +173,11 @@
   }
   .footer {
     // display: block;
-    background-image: url("../assets/footerBg.png");
-    background-position: center;
+    background-image: url("../assets/NewFooterBg3.png");
+    background-position:center;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
 
     p {
       font-size: 14px;

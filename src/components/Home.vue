@@ -45,7 +45,7 @@
     <div class="service" id="service">
       <v-container>
         <v-row wrap style="margin: 0px 0px" >
-          <v-col cols="12" md="7">
+          <v-col cols="12" sm="6">
             <v-card class="pa-5" flat>
               <h3 class="my-5">OUR SERVICE</h3>
               <ul>
@@ -61,7 +61,7 @@
             </v-card>
           </v-col>
 
-          <v-col cols="12" md="5" >
+          <v-col cols="12" sm="6" >
             <img src="../assets/Img22.svg" alt="" srcset=""  >
           </v-col>
 
@@ -81,6 +81,63 @@
      
     </div>
 
+    <div id="team" style="margin-top: 80px;">
+      <v-container>
+        <v-row wrap align-content="center">
+          <v-col cols="12" sm="6">
+            <v-card width="500" class="max-auto" flat >
+              <!-- <h3 class="my-5">HOW WE SERVE YOU</h3> -->
+              <v-img src="../assets/muyi.jpeg" height="500px" class="white--text align-end" style="border-radius: 20px" > 
+              <v-card-title>Olukunle Adeoluwa </v-card-title>
+              <v-card-subtitle style="color:white">Lead Consultant (Managing)</v-card-subtitle>
+              </v-img>
+              <div style="padding:12px">
+                <p>Olukunle is a thoroughbred Human Resources Generalist with functional management and leadership experience of about a decade spanning Media, Telecommunications, Real Estates, Information Technology, Aviation and Consulting. His last paid organizational leadership role was as Group Head of the HR function in a leading Information Security Group of companies in Nigeria</p>
+                <p>
+                  He is an experienced HR strategist with hands-on business management skills. He has special interest in Organization Design, Change Management, Talent Hunting and Management, and Leadership Development. He has practical exposure in startups and has supervised change management processes in rapidly growing businesses. His industrial relations skills are exceptional. A life passion for him is Ethical Leadership at every level of Organizational Governance.
+                </p>
+                <p>
+                  Kunle has facilitated several trainings and courses and is an active thought leader, promoting conversations around the Future of Work (FOW), Artificial Intelligence (AI), HR Data Analytics, Emotional Intelligence, Leadership, Organizational Culture, Aligning Human Resources initiatives to Business Strategy, Process Optimization 
+                </p>
+                <p>
+                  He is certified with the Society for Human Resources Management, USA and is a member of the Institute of Strategic Management, Nigeria, the Nigerian Institute of Training and Development and holds the Lean Six Sigma White Belt Certification. He is an alumnus of the Olabisi Onabanjo University, where he completed the Mass Communication degree; and is currently studying for his MBA with the University of South Wales, UK. 
+                </p>
+              </div>
+            </v-card>
+          </v-col>
+
+
+
+
+          <v-col cols="12" sm="6">
+            <v-card max-width="500" class="max-auto ma-5" flat >
+              <v-img src="../assets/lydia.png" height="500px" class="white--text align-end" style="border-radius: 20px"> 
+              <v-card-title>Lydia Issah</v-card-title>
+              <v-card-subtitle style="color:white">Accounts Director</v-card-subtitle>
+              </v-img>
+              <div style="padding:12px">
+                <p>Lydia is a Human Resource/Management consultant and financial analyst of over 10 years’ experience. Her experience spans both business management, strategy formulation and execution, as well as human resources management, from the high level executive to the administrative/operational levels. Her experience spans Hospitality/Tourism, Financial Services, Retail Operations/Services, etc.</p>
+                <p>
+                 She is a graduate of Accounting, with a Masters Degree in Human Recourses Management. She has also acquired loads of trainings which have helped in knowledge/skills acquisition during the course of her career.
+                </p>
+                <p>
+                 She has valuable consulting experience, having worked with reputable consulting firms on Process Audit and People Management, Organizational Effectiveness and Development, Learning and Development, Business Management, Sales & Marketing, among many others.
+                </p>
+                <p>
+                 Her focus is on strategy, training, leadership development and organizational development and design. 
+                </p>
+                <p>
+                  Lydia is an experienced business manager, a trained auditor, a trained HR consultant and also a recruitment and emotional intelligence expert. She is simply passionate about people and devotes herself to helping them become the best possible they can be.
+                </p>
+              </div>
+            </v-card>
+          </v-col>
+
+          
+        </v-row>
+      </v-container>
+    </div>
+
     <div class="footer" id="contact">
       <v-container>
         <v-row class="" style="margin-left:12px;">
@@ -92,11 +149,11 @@
           </v-col>
           <v-col cols="12">
             <span style="color: #1b3164">
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fab fa-medium-m"></i>
+            <a href="https://twitter.com/GulfbridgeC" target="_blank"><i class="fab fa-twitter"></i></a>
+            <!-- <i class="fab fa-facebook-f"></i> -->
+            <a href="https://www.instagram.com/gulfbridgeconsulting/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/gulfbridge-consulting" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <!-- <i class="fab fa-medium-m"></i> -->
           </span>
           </v-col>
           
@@ -114,7 +171,7 @@
     name: 'Home',
 
     data: () => ({
-     
+       
     }),
   }
 </script>
@@ -173,7 +230,7 @@
   }
   .footer {
     // display: block;
-    background-image: url("../assets/NewFooterBg3.png");
+    //background-image: url("../assets/NewFooterBg3.png");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -187,6 +244,11 @@
     }
     .fab {
       padding: 0px 10px;
+      cursor: pointer;
     }
+    
+  }
+  p {
+    color: #1b3164;
   }
 </style>

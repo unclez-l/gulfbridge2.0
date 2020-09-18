@@ -55,7 +55,7 @@
                 <li>Training & Development</li>
                 <li>Recruitment Services</li>
                 <li>SME HR Toolkit</li>
-                <li>Customer Attention, Retention & Experience (CARE) Services for SMEs</li>
+                <li>Customer Acquisition, Retention & Experience (CARE) Services for SMEs</li>
                 <li>Outsourcing Services</li>
               </ul>
             </v-card>

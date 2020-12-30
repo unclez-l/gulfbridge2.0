@@ -143,7 +143,7 @@
         <v-row class="" style="margin-left:12px;">
           <v-col cols="12" >
             <p style="letter-spacing: 1px">+234 807 777 6770 88<br>
-             +234 812 695 2210 <br>
+             +234 812 888 2210 <br>
             connect@gulfbridgeconsulting.com</p>
             
           </v-col>

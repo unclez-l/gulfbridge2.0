@@ -158,7 +158,7 @@
           </v-col>
           
           <v-col cols="12">
-            <p>  © 2020 Gulfbridge Consulting Limited </p> 
+            <p>  © 2021 Gulfbridge Consulting Limited </p> 
           </v-col>
         </v-row>  
       </v-container>

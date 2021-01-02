@@ -17,7 +17,7 @@
 
         <div style="color: #1b3164;">
           <div class="animate__animated animate__fadeInLeftBig animate__delay-2s">
-            <p style="margin:250px 0px 0px 35px; font-size: 20px;font-weight: bold; letter-spacing:2px;">WE ARE THE BEST AT</p>
+            <p style="margin:250px 0px 0px 35px; font-size: 20px;font-weight: bold; letter-spacing:2px;">WE ARE THE BEST AT this</p>
             <p  style="margin: 20px 0px 0px 35px; font-size: 15px; line-height: 25px; font-weight:bold; letter-spacing: 1px; ">HR Advisory, Training, Recruitment and providing <br>
               Professional HR Management & Advisory Services to suit <br>
               your unique operations.</p>

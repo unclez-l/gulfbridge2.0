@@ -7,11 +7,11 @@
           <v-toolbar-title class="ml-4 mt-3" style="letter-spacing: 2px; font-weight: bold; font-size: 15px; color: #33a0ba">Gulfbridge Consulting</v-toolbar-title>
             <v-spacer></v-spacer>
             <div class="btn my-3 mt-5">
-              <v-btn text small class="text-lowercase"><a href="#" style="text-decoration: none; color:#33a0ba">home</a></v-btn>
-              <v-btn text small class="text-lowercase"><a href="#about" style="text-decoration: none; color:#33a0ba">about us</a></v-btn>
-              <v-btn text small class="text-lowercase"><a href="#service" style="text-decoration: none; color:#33a0ba">our service</a></v-btn>
-              <v-btn text small class="text-lowercase"><a href="#team" style="text-decoration: none; color:#33a0ba">our team</a></v-btn>
-              <v-btn text small class="text-lowercase"><a href="#contact" style="text-decoration: none; color:#33a0ba">contact</a></v-btn>
+              <v-btn text small class="text-lowercase"><a href="#" style="text-decoration: none; color:#33a0ba">Home</a></v-btn>
+              <v-btn text small class="text-lowercase"><a href="#about" style="text-decoration: none; color:#33a0ba">About us</a></v-btn>
+              <v-btn text small class="text-lowercase"><a href="#service" style="text-decoration: none; color:#33a0ba">Our service</a></v-btn>
+              <v-btn text small class="text-lowercase"><a href="#team" style="text-decoration: none; color:#33a0ba">Our team</a></v-btn>
+              <v-btn text small class="text-lowercase"><a href="#contact" style="text-decoration: none; color:#33a0ba">Contact</a></v-btn>
             </div>
         </v-app-bar>
 
